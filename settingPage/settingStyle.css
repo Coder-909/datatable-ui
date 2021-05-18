@@ -13,9 +13,9 @@ input:focus {
 	outline:none;
 }
 
-#signup{
+#setting{
 	background: white;
-	width:25%;
+	width:40%;
 	min-height:40%;
 	border-radius:18px;
 	margin:16vh auto 0vh auto;
@@ -23,7 +23,14 @@ input:focus {
 	box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.25);
 }
 
-#signup label{
+#setting h1{
+	font-size:2.5em;
+	color:#8A0000;
+	font-family:sans-serif;
+	margin:1vh 14vw;
+}
+
+#setting label{
 	font-family: 'Poppins', sans-serif;
 	font-size: 1em;
 	font-weight: bold;	
@@ -31,8 +38,8 @@ input:focus {
 	color:#8A0000;
 }
 
-#signup input{
-	width:75%;
+#setting input{
+	width:80%;
 	margin:0.2em 1em 1em 1em;
 	padding:0.5em 0.8em 0.5em 0.5em;
 	border:none;
@@ -42,19 +49,11 @@ input:focus {
 	transition: border-bottom .1s;
 }
 
-#signup input:focus{
+#setting input:focus{
 	border-bottom:2px solid #8A0000;
 }
 
-#signup select{
-	padding:0.2em 0.7em;
-	font-size: 0.9em;
-	border:1px solid #8A0000;
-	background-color: white;
-	color:#8A0000;
-}
-
-#signup button{
+#setting button{
 	display: block;
 	cursor:pointer;
 	background-color: red;
@@ -69,6 +68,6 @@ input:focus {
 	transition: box-shadow .3s;
 }
 
-#signup button:hover{
+#setting button:hover{
 	box-shadow: 0px 0px 15px 3px rgba(255,0,0,0.5);
 }

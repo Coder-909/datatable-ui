@@ -48,7 +48,7 @@ input:focus {
 
 #login button{
 	display: block;
-	curson:pointer;
+	cursor:pointer;
 	background-color: red;
 	border:none;
 	border-radius: 8px;
