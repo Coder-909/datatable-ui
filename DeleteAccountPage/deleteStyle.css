@@ -16,7 +16,7 @@ input:focus {
 #setting{
 	background: white;
 	width:40%;
-	min-height:40%;
+	min-height:30%;
 	border-radius:18px;
 	margin:16vh auto 0vh auto;
 	padding:1em 0em 0.5em 1em;
@@ -27,7 +27,7 @@ input:focus {
 	font-size:2.5em;
 	color:#8A0000;
 	font-family:sans-serif;
-	margin:1vh 13vw;
+	margin:1vh 1vw;
 }
 
 #setting label{
@@ -36,21 +36,6 @@ input:focus {
 	font-weight: bold;	
 	margin:0.5em 1em 1em 1em;
 	color:#8A0000;
-}
-
-#setting input{
-	width:80%;
-	margin:0.2em 1em 1em 1em;
-	padding:0.5em 0.8em 0.5em 0.7em;
-	border:none;
-	color:#8A0000;
-	border-bottom:2px solid red;
-	font-size: 1em;
-	transition: border-bottom .1s;
-}
-
-#setting input:focus{
-	border-bottom:2px solid #8A0000;
 }
 
 #setting button{
@@ -63,7 +48,7 @@ input:focus {
 	color:white;
 	font-family: Roboto;
 	font-size: 1.4em;
-	margin:0.5em auto 1em auto;
+	margin:1.5em auto 0em auto;
 	padding: 0.5em 1em 0.5em 1em;
 	transition: box-shadow .3s;
 }
